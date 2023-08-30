@@ -1,0 +1,9 @@
+2023-07-24 07:00:28,450 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-07-24 07:00:28,458 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get']
+2023-07-24 07:00:28,459 DEBUG    root            Running [gcloud.config.get] with arguments: [SECTION/PROPERTY: "project"]
+2023-07-24 07:00:28,459 INFO     ___FILE_ONLY___ Your active configuration is: [very-responsible-steven]
+
+2023-07-24 07:00:28,460 DEBUG    root            Chosen display Format:value(.)
+2023-07-24 07:00:28,460 INFO     root            Display format: "value(.)"
+2023-07-24 07:00:28,460 INFO     ___FILE_ONLY___ very-responsible-steven
+

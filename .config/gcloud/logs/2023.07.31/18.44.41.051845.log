@@ -1,0 +1,9 @@
+2023-07-31 18:44:41,075 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-07-31 18:44:41,118 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
+2023-07-31 18:44:41,124 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
+2023-07-31 18:44:41,124 INFO     ___FILE_ONLY___ Your active configuration is: [very-responsible-steven]
+
+2023-07-31 18:44:41,129 INFO     root            Display format: "value(.)"
+2023-07-31 18:44:41,129 INFO     ___FILE_ONLY___ very-responsible-steven
+
+2023-07-31 18:44:41,167 DEBUG    root            Metrics reporting process started...

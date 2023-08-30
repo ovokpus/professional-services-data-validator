@@ -1,0 +1,45 @@
+2023-07-24 07:00:26,961 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-07-24 07:00:26,981 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2023-07-24 07:00:26,982 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json", --quiet: "True", --verbosity: "warning"]
+2023-07-24 07:00:27,194 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-07-24 07:00:27,246 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-07-24 07:00:27,618 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-07-24 07:00:27,622 DEBUG    root            Chosen display Format:default json
+2023-07-24 07:00:27,622 INFO     root            Display format: "default json"
+2023-07-24 07:00:27,622 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "very-responsible-steven",
+    "properties": {
+      "container": {
+        "use_application_default_credentials": "true"
+      },
+      "core": {
+        "account": "ovo.okpubuluku@badal.io",
+        "disable_prompts": "True",
+        "disable_usage_reporting": "True",
+        "print_unhandled_tracebacks": "true",
+        "project": "very-responsible-steven",
+        "verbosity": "warning"
+      },
+      "metrics": {
+        "environment": "cloudcode.vscode",
+        "environment_version": "1.21.8"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AbVbY6OtgGMUDqZS24-mNC3cKkgBS2F2nQM7D65t_ABoEZj0eWrq_7U9tpnwzSN4ONql3j8EqmL9Xb_brny38bDh_WI6Wa2HohzhS0IfKEtjiqu_J00T5u6idxu6BsFRZ-_JwpOCMZSEhYLPFrj2n6L_n9y5xzj1EqJlIBsaCgYKARoSARASFQFWKvPlR6AReA43WeqBSCj5rv1gjA0174",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzYmRiZmRlZGUzYmFiYjI2NTFhZmNhMjY3OGRkZThjMGIzNWRmNzYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyMDc0NDgzMTUwNDQyNzE1MDk1IiwiaGQiOiJiYWRhbC5pbyIsImVtYWlsIjoib3ZvLm9rcHVidWx1a3VAYmFkYWwuaW8iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IkNuS2ZZZnZhd0thQW1uM21pZ2xzWlEiLCJpYXQiOjE2OTAyMDM2MjcsImV4cCI6MTY5MDIwNzIyN30.fQXxhd7N10ZGelZ4G8JxP5kUzxTZGICLzJHgxMRFkGCxeRz2P4ncl8hBQ39w9VK2qvszsJwM-uk8qNth8EUQ1U6efjK6XxbbK3nZng4YH3YT6LhJBbwvgnjSCYRsqG9qlFupoMJF1sMe4yhhMXKWGQaOkLwxBP2a9nQ0nxcsxcyGDojm8rt-kFHm9PkOZrjS1euWSfkHhDLJtf9XRiczyvR_mi5A2JT3OP9nV2KXuA6jniEv2Um1Hx6TZGRmZB2bA81t81LDk8arWbS8_jN9cxp0kjSrFR35udG55Z060qTf6gbE4S-lto1NC5Qh8cBFaC3AkZTa4F64CrbXnFEv7A",
+    "token_expiry": "2023-07-24T14:00:26Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/ovookpubuluku/.config/gcloud/config_sentinel"
+  }
+}
+2023-07-24 07:00:27,622 INFO     ___FILE_ONLY___ 
+
+2023-07-24 07:00:27,623 DEBUG    root            Checking for updates...
+2023-07-24 07:00:27,628 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-24 07:00:27,818 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 208282
+2023-07-24 07:00:27,965 DEBUG    root            Updating notification cache...
+2023-07-24 07:00:27,965 DEBUG    root            Activating notification: [default]

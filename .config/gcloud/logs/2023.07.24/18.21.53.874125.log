@@ -1,0 +1,24 @@
+2023-07-24 18:21:53,875 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-24 18:21:53,877 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2023-07-24 18:21:53,878 DEBUG    root            Running [gcloud.auth.list] with arguments: [--filter: "status=ACTIVE", --format: "value(account)", --quiet: "True", --verbosity: "warning"]
+2023-07-24 18:21:53,888 DEBUG    root            Chosen display Format:    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)
+2023-07-24 18:21:53,889 INFO     root            Display format: "    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)"
+2023-07-24 18:21:53,889 INFO     ___FILE_ONLY___ ovo.okpubuluku@badal.io
+
+2023-07-24 18:21:53,889 DEBUG    root            [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/Users/ovookpubuluku/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+  File "/Users/ovookpubuluku/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 809, in Run
+    display_info=self.ai.display_info).Display()
+  File "/Users/ovookpubuluku/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/calliope/display.py", line 491, in Display
+    log.out.flush()
+  File "/Users/ovookpubuluku/Library/Application Support/cloud-code/installer/google-cloud-sdk/lib/googlecloudsdk/core/log.py", line 247, in flush
+    self.__stream_wrapper.stream.flush()
+BrokenPipeError: [Errno 32] Broken pipe

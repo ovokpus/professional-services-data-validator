@@ -1,0 +1,27 @@
+2023-07-27 12:46:38,115 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2023-07-27 12:46:38,116 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'config_helper']
+2023-07-27 12:46:38,118 DEBUG    root            Running [gcloud.config.config-helper] with arguments: [--format: "json"]
+2023-07-27 12:46:38,121 INFO     root            Display format: "default json"
+2023-07-27 12:46:38,121 INFO     ___FILE_ONLY___ {
+  "configuration": {
+    "active_configuration": "very-responsible-steven",
+    "properties": {
+      "core": {
+        "account": "ovo.okpubuluku@badal.io",
+        "disable_usage_reporting": "False",
+        "project": "very-responsible-steven"
+      }
+    }
+  },
+  "credential": {
+    "access_token": "ya29.a0AbVbY6M6sTv-S-meUqXm3_xi-VSjJxmnZIhGsOVEKwoGpjpSuaRXuLW4QjAR24aPp6j6071ETGwvi3sP4FMPLgxodqNC454M5KsORh6D7R24Odhg46_hVBr9ah8Th4vW7Vw8KNuBj_HDF1inVCI6pA8uVUyLrbl3_s7hctAaCgYKARkSARASFQFWKvPlFBDK3H0ly_hZ6qQpyQ0RMA0174",
+    "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEzYmRiZmRlZGUzYmFiYjI2NTFhZmNhMjY3OGRkZThjMGIzNWRmNzYiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzMjU1NTk0MDU1OS5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjMyNTU1OTQwNTU5LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTEyMDc0NDgzMTUwNDQyNzE1MDk1IiwiaGQiOiJiYWRhbC5pbyIsImVtYWlsIjoib3ZvLm9rcHVidWx1a3VAYmFkYWwuaW8iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IjJSbVhseHVrdXVWVjBaUFQ1eW5VNkEiLCJpYXQiOjE2OTA0ODM1MzIsImV4cCI6MTY5MDQ4NzEzMn0.Y5N99XtY1dAlUbJs5fTxueq34FrsKgpRtRYZBep8POylYnGNa_z511_KBI18kwetpre8Hj13pYOYrYqpMShTKnXnCTDiygJbxJYkHiWiSrWBrDftJNmKgOmpoz2ELAXqYM1Z0ETlw4uQkElO-uxWgyyE-1jfLQrrudAXxzRyKKgxojqQfPx5VbUZELDZ__sslmnNSvMHYF6NgslISVbzB_kgb2s6OQpGjBHZfcy2Yz2AWTwU9FiMsA_CvEs7Q77akqpXee4RAiJyxX53iR6ehbucAgEXg9WjfOMJgbmu9QOlRKiKwdSli8f-XuuUpZSv4XbctBqGrIFGquadvoslMw",
+    "token_expiry": "2023-07-27T19:45:31Z"
+  },
+  "sentinels": {
+    "config_sentinel": "/Users/ovookpubuluku/.config/gcloud/config_sentinel"
+  }
+}
+2023-07-27 12:46:38,121 INFO     ___FILE_ONLY___ 
+
+2023-07-27 12:46:38,127 DEBUG    root            Metrics reporting process started...

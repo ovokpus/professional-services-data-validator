@@ -1,0 +1,13 @@
+2023-07-24 07:00:30,007 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2023-07-24 07:00:30,009 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2023-07-24 07:00:30,009 DEBUG    root            Running [gcloud.auth.list] with arguments: [--filter: "status=ACTIVE", --format: "value(account)", --quiet: "True", --verbosity: "warning"]
+2023-07-24 07:00:30,010 DEBUG    root            Chosen display Format:    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)
+2023-07-24 07:00:30,011 INFO     root            Display format: "    table[title='Credentialed Accounts'](
+        status.yesno(yes='*', no=''):label=ACTIVE,
+        account
+    ) value(account)"
+2023-07-24 07:00:30,011 INFO     ___FILE_ONLY___ ovo.okpubuluku@badal.io
+

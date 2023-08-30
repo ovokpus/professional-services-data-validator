@@ -1,0 +1,103 @@
+2023-07-31 18:11:48,958 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2023-07-31 18:11:48,959 DEBUG    root            Running [gcloud.init] with arguments: []
+2023-07-31 18:11:48,959 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2023-07-31 18:11:48,959 INFO     ___FILE_ONLY___ Settings from your current configuration [very-responsible-steven] are:
+
+2023-07-31 18:11:48,960 INFO     ___FILE_ONLY___ core:
+  account: ovo.okpubuluku@badal.io
+  disable_usage_reporting: 'False'
+  project: very-responsible-steven
+
+2023-07-31 18:11:48,961 INFO     ___FILE_ONLY___ 
+
+2023-07-31 18:12:05,804 INFO     ___FILE_ONLY___ Your current configuration has been set to: [very-responsible-steven]
+
+
+2023-07-31 18:12:05,805 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2023-07-31 18:12:05,805 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2023-07-31 18:12:05,805 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2023-07-31 18:12:05,806 INFO     ___FILE_ONLY___ Checking network connection...
+2023-07-31 18:12:07,859 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): accounts.google.com:443
+2023-07-31 18:12:08,003 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET / HTTP/1.1" 302 338
+2023-07-31 18:12:08,092 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /ServiceLogin?passive=1209600&continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F HTTP/1.1" 302 None
+2023-07-31 18:12:08,217 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /InteractiveLogin?continue=https://accounts.google.com/&followup=https://accounts.google.com/&passive=1209600&ifkv=AeDOFXh4HYGhet1wwHRcL6GH02w-uObtstoWVskNmG4B-c8tXMohUpYNnCV90MLJEn2jCaG4xPeQ HTTP/1.1" 302 527
+2023-07-31 18:12:08,338 DEBUG    urllib3.connectionpool https://accounts.google.com:443 "GET /v3/signin/identifier?continue=https%3A%2F%2Faccounts.google.com%2F&followup=https%3A%2F%2Faccounts.google.com%2F&ifkv=AeDOFXj2p5n9UPYz6WosBKFXx5FFnn_i1KDJGBWM1o-xgEJyPI6qLZ6_rn3TSF46JqB653GLfrvRmg&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-603741835%3A1690848728318739 HTTP/1.1" 200 None
+2023-07-31 18:12:08,424 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-07-31 18:12:08,547 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1beta1/projects HTTP/1.1" 401 None
+2023-07-31 18:12:08,554 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): www.googleapis.com:443
+2023-07-31 18:12:08,682 DEBUG    urllib3.connectionpool https://www.googleapis.com:443 "GET /auth/cloud-platform HTTP/1.1" 200 14
+2023-07-31 18:12:08,688 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-31 18:12:08,820 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 208282
+2023-07-31 18:12:09,073 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2023-07-31 18:12:09,073 INFO     ___FILE_ONLY___ Network diagnostic passed (1/1 checks passed).
+
+
+2023-07-31 18:12:13,718 INFO     ___FILE_ONLY___ You are logged in as: [ovo.okpubuluku@badal.io].
+
+
+2023-07-31 18:12:13,726 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-07-31 18:12:13,752 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-07-31 18:12:13,936 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-07-31 18:12:13,957 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-07-31 18:12:14,384 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects?alt=json&filter=lifecycleState%3AACTIVE&pageSize=201 HTTP/1.1" 200 None
+2023-07-31 18:12:28,869 INFO     ___FILE_ONLY___ Your current project has been set to: [very-responsible-steven].
+
+
+2023-07-31 18:12:28,898 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2023-07-31 18:12:28,913 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2023-07-31 18:12:28,918 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2023-07-31 18:12:28,918 INFO     root            Executing: [gcloud compute project-info describe --quiet]
+2023-07-31 18:12:28,919 DEBUG    root            Running [gcloud.compute.project-info.describe] with arguments: [--no-user-output-enabled: "false", --quiet: "True", --verbosity: "none"]
+2023-07-31 18:12:29,029 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): compute.googleapis.com:443
+2023-07-31 18:12:29,934 DEBUG    urllib3.connectionpool https://compute.googleapis.com:443 "POST /batch/compute/v1 HTTP/1.1" 200 None
+2023-07-31 18:12:29,939 INFO     root            Display disabled.
+2023-07-31 18:12:29,941 DEBUG    root            Checking for updates...
+2023-07-31 18:12:29,943 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-07-31 18:12:30,066 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 208282
+2023-07-31 18:12:30,207 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Google Cloud CLI components.  To install them,
+please run:
+  $ gcloud components update
+
+
+2023-07-31 18:12:30,210 INFO     ___FILE_ONLY___ 
+
+To take a quick anonymous survey, run:
+  $ gcloud survey
+
+
+2023-07-31 18:12:35,131 DEBUG    root            Not configuring default .boto file. File already exists at [/Users/ovookpubuluku/.boto].
+2023-07-31 18:12:35,131 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2023-07-31 18:12:35,131 INFO     ___FILE_ONLY___ * Commands that require authentication will use ovo.okpubuluku@badal.io by default
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ * Commands will reference project `very-responsible-steven` by default
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ This gcloud configuration is called [very-responsible-steven]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ * Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+
+2023-07-31 18:12:35,132 INFO     ___FILE_ONLY___ * Run `gcloud cheat-sheet` to see a roster of go-to `gcloud` commands.
+
+2023-07-31 18:12:35,133 INFO     root            Display format: "default"
+2023-07-31 18:12:35,144 DEBUG    root            Metrics reporting process started...

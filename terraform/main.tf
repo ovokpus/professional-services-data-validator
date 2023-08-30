@@ -12,12 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-provider "google" {}
-
 resource "google_bigquery_dataset" "default" {
   project = var.project_id
-  dataset_id = "pso_data_validator"
-  location = "US"
+  dataset_id = "data_validator_poc"
+  location = "us-central1"
 }
 
 resource "google_bigquery_table" "default" {

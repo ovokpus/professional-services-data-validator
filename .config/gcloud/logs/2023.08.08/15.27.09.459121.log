@@ -1,0 +1,79 @@
+2023-08-08 15:27:09,463 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters']
+2023-08-08 15:27:09,466 DEBUG    root            Loaded Command Group: ['gcloud', 'container', 'clusters', 'list']
+2023-08-08 15:27:09,520 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-08-08 15:27:09,557 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-08-08 15:27:09,745 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-08-08 15:27:09,767 DEBUG    root            Running [gcloud.container.clusters.list] with arguments: []
+2023-08-08 15:27:09,819 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): container.googleapis.com:443
+2023-08-08 15:27:10,705 DEBUG    urllib3.connectionpool https://container.googleapis.com:443 "GET /v1/projects/very-responsible-steven/locations/-/clusters?alt=json HTTP/1.1" 200 None
+2023-08-08 15:27:10,725 DEBUG    root            Chosen display Format:
+    table(
+        name,
+        zone:label=LOCATION,
+        master_version():label=MASTER_VERSION,
+        endpoint:label=MASTER_IP,
+        nodePools[0].config.machineType,
+        currentNodeVersion:label=NODE_VERSION,
+        firstof(currentNodeCount,initialNodeCount):label=NUM_NODES,
+        status
+    )
+
+2023-08-08 15:27:10,726 INFO     root            Display format: "
+    table(
+        name,
+        zone:label=LOCATION,
+        master_version():label=MASTER_VERSION,
+        endpoint:label=MASTER_IP,
+        nodePools[0].config.machineType,
+        currentNodeVersion:label=NODE_VERSION,
+        firstof(currentNodeCount,initialNodeCount):label=NUM_NODES,
+        status
+    )
+"
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ NAME
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___                                      
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ LOCATION
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___      
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ MASTER_VERSION
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___    
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ MASTER_IP
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___     
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ MACHINE_TYPE
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ NODE_VERSION
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___      
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___ NUM_NODES
+2023-08-08 15:27:10,732 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ STATUS
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ 
+
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ us-central1-s-composer-dev-9658f9b7-gke
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ us-central1
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ 1.27.2-gke.1200
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ 192.168.1.2
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ e2-medium
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___      
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ 1.27.2-gke.1200
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___   
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ 3
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___           
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ RUNNING
+2023-08-08 15:27:10,733 INFO     ___FILE_ONLY___ 
+
+2023-08-08 15:27:10,734 DEBUG    root            Checking for updates...
+2023-08-08 15:27:10,761 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-08-08 15:27:10,897 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 209939
+2023-08-08 15:27:11,036 DEBUG    root            Updating notification cache...
+2023-08-08 15:27:11,036 DEBUG    root            Activating notification: [default]
+2023-08-08 15:27:11,036 INFO     ___FILE_ONLY___ 
+
+Updates are available for some Google Cloud CLI components.  To install them,
+please run:
+  $ gcloud components update
+
+
+2023-08-08 15:27:11,045 DEBUG    root            Metrics reporting process started...
